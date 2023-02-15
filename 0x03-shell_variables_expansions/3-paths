@@ -1,0 +1,3 @@
+#!/bin/bash
+dirs=(${PATH//:/ })
+echo "The number of directories in the PATH is: ${#dirs[@]}"
